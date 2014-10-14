@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait" >
+
+    <LinearLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.94" >
+
+            <TextView
+                android:id="@+id/text_score"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="10dp"
+                android:text="Score:" />
+	        
+	        <TextView
+	            android:id="@+id/text_next"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@id/text_score"
+	            android:layout_below="@id/text_score"
+	            android:layout_marginBottom="10dp"
+	            android:text="Next:" />
+	        
+	        <TextView
+	            android:id="@+id/text_rank"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@id/text_next"
+	            android:layout_below="@id/text_next"
+	            android:text="Rank:" />
+	        
+	        <TextView
+	            android:id="@+id/score"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginBottom="10dp"
+	            android:layout_toRightOf="@id/text_score"
+	            android:text="0" />
+	        
+	        <TextView
+	            android:id="@+id/nextscore"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignTop="@id/text_next"
+	            android:layout_marginBottom="10dp"
+	            android:layout_toRightOf="@id/text_next"
+	            android:text="——" />
+	        
+	        <TextView
+	            android:id="@+id/rank"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignTop="@id/text_rank"
+	            android:layout_marginBottom="10dp"
+	            android:layout_toRightOf="@id/text_rank"
+	            android:text="——" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.90" >
+            
+             <TextView
+                 android:id="@+id/text_level"
+                 android:layout_width="50dp"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginBottom="10dp"
+                 android:text="Level:" />
+	        
+	        <TextView
+	            android:id="@+id/text_lives"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@id/text_level"
+	            android:layout_below="@id/text_level"
+	            android:layout_marginBottom="10dp"
+	            android:text="Lives:" />
+	        
+	        <TextView
+	            android:id="@+id/text_player"
+	            android:layout_width="50dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@id/text_lives"
+	            android:layout_below="@id/text_lives"
+	            android:text="Player:" />
+	        
+	        <TextView
+	            android:id="@+id/level"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginBottom="10dp"
+	            android:layout_toRightOf="@id/text_level"
+	            android:text="1" />
+	        
+	        <TextView
+	            android:id="@+id/lives"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignTop="@id/text_lives"
+	            android:layout_marginBottom="10dp"
+	            android:layout_toRightOf="@id/text_lives"
+	            android:text="3" />
+	        
+	        <TextView
+	            android:id="@+id/playernumber"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignTop="@id/text_player"
+	            android:layout_marginBottom="10dp"
+	            android:layout_toRightOf="@id/text_player"
+	            android:text="1" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/frame"
+        android:background="@drawable/images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </AbsoluteLayout>
+
+</LinearLayout>

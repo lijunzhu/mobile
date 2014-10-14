@@ -1,0 +1,11 @@
+Rank Name Score
+1 Jun 200
+2 Jun 150
+3 Jun 100
+4 Jun 50
+5 Jun 40
+6 Jun 30
+7 Jun 20
+8 Jun 10
+9 Jun 5
+10 Jun 0

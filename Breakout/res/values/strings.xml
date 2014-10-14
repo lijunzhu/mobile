@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Breakout</string>
+	<string name="begin">Begin </string>
+	<string name="quit">Exit</string>
+	<string name="help">Help</string>
+	<string name="win">You win!</string>
+	<string name="lose">You lose!</string>
+	<string name="quitalert">Quit or not?</string>
+	<string name="ok">ok</string>
+	<string name="cancel">cancel</string>
+	<string name="loselife">Lives - 1</string>
+	<string name="Nonetwork">No network, please try again.</string>
+	<string name="download">Download successfully!</string>
+</resources>
